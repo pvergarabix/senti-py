@@ -4,7 +4,10 @@ from .MarisaTfidfVectorizer import *
 from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.pipeline import Pipeline
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.externals import joblib
+#from sklearn.externals import joblib #PV
+import joblib
+
+
 class sentimentClassifier:
 	def __init__(self, ngram_range = best_params['v__ngram_range'], max_features = best_params['v__max_features'],
 							k = best_params['f__k'], alpha = best_params['c__alpha'], lightModel = False):
