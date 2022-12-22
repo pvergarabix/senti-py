@@ -5,14 +5,14 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
+#with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+#    long_description = f.read()
 
 setup(
     name='senti-py',
     version='1.0.1',
     description='A sentiment analysis classifier in spanish.',
-    long_description=long_description,
+    long_description='Descrpcion completa...',
     url='https://github.com/pvergarabix/senti-py',
     download_url='https://github.com/pvergarabix/senti-py/archive/refs/heads/master.zip',
     author='Elliot Hofman',
